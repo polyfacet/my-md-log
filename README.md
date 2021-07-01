@@ -4,4 +4,5 @@ A test to be able simply combine git and markdowns into a simple log.
 
 ## Table of Contents
 * [The horrible manufacturer code](./Programming/BadCode/ManufacturerCode.md)
+* [Att jobba som avkodare](./Work/WorkingAsDecoder.md)
 
