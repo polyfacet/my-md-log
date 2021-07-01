@@ -87,7 +87,7 @@ Fourteen conditions in an if statement combined with ANDs, ORs and NOTs makes it
 I inserted the lines below before the real mess started.
 ``` java
              // PCP templates are handled in a special way
-            if (getType.equals(com.sisu.common.constants.Types.TYPE_ST_PCPECO)) {
+            if (getType.equals(com.acme.common.constants.Types.TYPE_ST_PCPECO)) {
                 findMatchingTemplatesForPCP(boContent);
                 // Exits to avoid unmaintainable code
                 return 0;
