@@ -29,7 +29,7 @@ The first change comes when the first delivery is done and the roses are ruined,
 You could say that the implementation does not satisfy the requirement even though the specification was fulfilled.
 |Type   | Description                                                  |
 |---|---|
-|Implementation | **1. Take ~~bike~~ taxi to Greta's store<br />**2. Pickup roses<br />3. Pay with cash<br />4. Deliver flowers |
+|Implementation | **1. Take ~~bike~~ taxi to Greta's store**<br />2. Pickup roses<br />3. Pay with cash<br />4. Deliver flowers |
 
 ### Change due to high cost
 
