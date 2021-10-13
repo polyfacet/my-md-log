@@ -12,7 +12,7 @@
 # Requirements, Specifications and Implementation
 
 ## Introduction
-As a software developer I struggle with get the requirements from customers. The requirements are often absent, which is bad. Because requirements helps to fill in the gaps in the specification and makes it possible to find better alternatives than handed specification.
+As a software developer I struggle with getting the requirements from customers. The requirements are often absent, which is bad. Because requirements helps to fill in the gaps in the specification and makes it possible to find better alternatives than handed specification.
 
 I will illustrate this with a simple example. 
 
