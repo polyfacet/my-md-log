@@ -64,8 +64,8 @@ That it was specified at Greta's was not important really, it was just a suggest
 |Type   | Description                                                  |
 |---|---|
 |Requirement | On Valentines Day I want to show my appreciation for my wife. **Budget $50** |
-|Specification   |  Buy 10 roses at ~~Greta's~~ flower shop and deliver to wife  |
-|Implementation | 1. **Walk to Penny's** ~~Greta's~~ store<br />2. Pickup roses<br />3. Pay with cash<br />4. Deliver flowers |
+|Specification   |  Buy 10 roses at <span class='strike'>Greta's</span> flower shop and deliver to wife  |
+|Implementation | 1. **Walk to Penny's** <span class='strike'>Greta's</span> store<br />2. Pickup roses<br />3. Pay with cash<br />4. Deliver flowers |
 
 
 ### Change due to change in payment method
