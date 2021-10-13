@@ -1,5 +1,5 @@
 # The horrible manufacturer code
-This is probably the worst piece of code i encountered. And was supposed to add support for a new template.
+This is probably the worst piece of code i encountered. And I was supposed to add support for a new template.
 
 ``` java
 public class MatchingTemplatesTag extends TagSupport {
