@@ -1,7 +1,7 @@
-# Requirements, Specifications and Implemenation
+# Requirements, Specifications and Implementation
 
 ## Introduction
-As a software developer I struggle with get the requirements from a customer. The requirements are often absent, which is bad. Because requirements helps to fill in the gaps in the specification and makes it possible to find better alternatives than handed specification.
+As a software developer I struggle with get the requirements from customers. The requirements are often absent, which is bad. Because requirements helps to fill in the gaps in the specification and makes it possible to find better alternatives than handed specification.
 
 I will illustrate this with a simple example. 
 
@@ -9,7 +9,7 @@ I will illustrate this with a simple example.
 
 To start with a typical request will be written like: "I need 10 roses, can you fix this?" 
 
-If I would be able to extract the requirements it could be written as in this table.
+If I would be able to extract the requirement and try to break it down, the initial result could be something like the table below. 
 
 
 ### Initial setup 
@@ -35,8 +35,14 @@ You could say that the implementation does not satisfy the requirement even thou
 
 Now there will be complaint of the high cost, due to that biking was replaced with a taxi ride.
 
-TODO: Change requirement, spec, and implementation. Buy at a closer store with walking distance.
+Change requirement, spec, and implementation. Buy at a closer store with walking distance.
+That it was specified at Greta's was not important really, it was just a suggestion to the implementation by the customer.
 
+|Type   | Description                                                  |
+|---|---|
+|Requirement | On Valentines Day I want to show my appreciation for my wife. **Budget $50** |
+|Specification   |  Buy 10 roses at ~~Greta's~~ flower shop and deliver to wife  |
+|Implementation | 1. **Walk to Penny's** ~~Greta's~~ store<br />2. Pickup roses<br />3. Pay with cash<br />4. Deliver flowers |
 
 
 ### Change due to change in payment method
