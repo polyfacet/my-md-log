@@ -1,5 +1,5 @@
 <style>
-    tr {
+    tr,td {
         border-bottom-style: solid;
     }
     .strike {
