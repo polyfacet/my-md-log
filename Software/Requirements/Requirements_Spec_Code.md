@@ -1,6 +1,7 @@
 <style>
     tr,td {
         border-bottom-style: solid;
+        border-color:yellow;
     }
     .strike {
         text-decoration: line-through; color:red;
