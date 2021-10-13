@@ -13,13 +13,23 @@ If I would be able to extract the requirement and try to break it down, the init
 
 
 ### Initial setup 
+<table>
+    <th>Type</th><th>Description</th>
+    <tr>
+        <td>Requirement</td><td> On Valentines Day I want to show my appreciation for my wife</td>
+    </tr>
+    <tr>
+        <td>Specification</td><td>Buy 10 roses at Greta's flower shop and deliver to wife</td>
+    </tr>
+    <tr>
+        <td>Code/Interface</td><td>1. Go to store<br />2. Pick up product<br />3. Pay for product<br />4. Deliver product</td>
+    </tr>
+    <tr>
+        <td>Implementation</td><td>1. Take bike to Greta's store<br />2. Pickup roses<br />3. Pay with cash<br />4. Deliver flowers</td>
+    </tr>
+</table>
 
-|Type   | Description                                                  |
-|---|---|
-|Requirement | On Valentines Day I want to show my appreciation for my wife |
-|Specification   |  Buy 10 roses at Greta's flower shop and deliver to wife  |
-|Code/Interface  | 1. Go to store<br />2. Pick up product<br />3. Pay for product<br />4. Deliver product |
-|Implementation | 1. Take bike to Greta's store<br />2. Pickup roses<br />3. Pay with cash<br />4. Deliver flowers |
+
 
 I will run this through a scenario to show the volatility of the different types, when changes occur.
 
@@ -30,7 +40,7 @@ The first change comes when the first delivery is done and the roses are ruined,
 You could say that the implementation does not satisfy the requirement even though the specification was fulfilled.
 <table>
 <th>Type</th><th>Description</th>
-<tr><td>Implementation</td><td>**1. Take ~~bike~~ taxi to Greta's store**<br />2. Pickup roses<br />3. Pay with cash<br />4. Deliver flowers</td></tr>
+<tr><td>Implementation</td><td><strong>1. Take <span style="text-decoration: line-through;">bike</span> taxi to Greta's store</strong><br />2. Pickup roses<br />3. Pay with cash<br />4. Deliver flowers</td></tr>
 </table>
 
 
@@ -71,4 +81,5 @@ TODO: Change Spec and implementation. Buy chocolate
 TODO: Change Spec, Code and implementation. Buy a spa treatment/massage
 
 ### Summary number of changes of each type
+
 
