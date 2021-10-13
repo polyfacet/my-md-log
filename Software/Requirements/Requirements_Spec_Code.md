@@ -1,3 +1,13 @@
+<style>
+    tr {
+        border-bottom-style: solid;
+    }
+    .strike {
+        text-decoration: line-through; color:red;
+    }
+    
+</style>
+
 # Requirements, Specifications and Implementation
 
 ## Introduction
@@ -40,7 +50,7 @@ The first change comes when the first delivery is done and the roses are ruined,
 You could say that the implementation does not satisfy the requirement even though the specification was fulfilled.
 <table>
 <th>Type</th><th>Description</th>
-<tr><td>Implementation</td><td><strong>1. Take <span style="text-decoration: line-through; color:red;">bike</span> taxi to Greta's store</strong><br />2. Pickup roses<br />3. Pay with cash<br />4. Deliver flowers</td></tr>
+<tr><td>Implementation</td><td><strong>1. Take <span class ='strike'>bike</span> taxi to Greta's store</strong><br />2. Pickup roses<br />3. Pay with cash<br />4. Deliver flowers</td></tr>
 </table>
 
 
