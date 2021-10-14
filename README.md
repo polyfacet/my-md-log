@@ -8,6 +8,7 @@ A test to be able simply combine git and markdowns into a simple log.
 * [Requirements, specifications and implementation](./Software/Requirements/Requirements_Spec_Code.md)
 * Aras
    * [Validation Concept with Demo](Aras/ValidationConcept.md)
+   * [Aras Code Templates](Aras/ArasCodeTemplates.md)
    
   
   
