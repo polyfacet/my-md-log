@@ -10,5 +10,3 @@ A test to be able simply combine git and markdowns into a simple log.
 ---
 
 Page: <https://polyfacet.github.io/my-md-log>
-
-(my-md-log)
