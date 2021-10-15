@@ -10,7 +10,7 @@
 </style>
 
 # Requirements, Specifications and Implementation
-Created/Updated: 2020-10-15
+<p class='editDate'>Created/Updated: 2020-10-15</p>
 
 ## Introduction
 As a software developer I struggle with getting the requirements from customers. The requirements are often absent, which is bad. Because requirements helps to fill the gaps in the specification and makes it possible to find better alternatives than handed specification.
