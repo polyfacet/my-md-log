@@ -12,7 +12,7 @@
 # Requirements, Specifications and Implementation
 
 ## Introduction
-As a software developer I struggle with getting the requirements from customers. The requirements are often absent, which is bad. Because requirements helps to fill in the gaps in the specification and makes it possible to find better alternatives than handed specification.
+As a software developer I struggle with getting the requirements from customers. The requirements are often absent, which is bad. Because requirements helps to fill the gaps in the specification and makes it possible to find better alternatives than handed specification.
 
 I will illustrate this with a simple example. 
 
@@ -64,7 +64,7 @@ That it was specified at Greta's was not important really, it was just a suggest
 
 |Type   | Description                                                  |
 |---|---|
-|Requirement | On Valentines Day I want to show my appreciation for my wife. **Budget $50** |
+|Requirement | On Valentines Day I want to show my appreciation for my wife. <span class='new'>**Budget $50**</span> |
 |Specification   |  Buy 10 roses at <span class='strike'>Greta's</span> flower shop and deliver to wife  |
 |Implementation | 1. **Walk to Penny's** <span class='strike'>Greta's</span> store<br />2. Pickup roses<br />3. Pay with cash<br />4. Deliver flowers |
 
