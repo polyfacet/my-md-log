@@ -14,7 +14,7 @@
 ## Introduction
 As a software developer I struggle with getting the requirements from customers. The requirements are often absent, which is bad. Because requirements helps to fill the gaps in the specification and makes it possible to find better alternatives than handed specification.
 
-I will illustrate this with a simple example. 
+I will illustrate this with a simple example. And make a summary with some conclusions on why I value requirements so much more than specifications.
 
 ## Example
 
@@ -93,4 +93,35 @@ TODO: Change Spec, Code and implementation. Buy a spa treatment/massage
 
 ### Summary number of changes of each type
 
+## Conclusion
+As you can see; well defined requirements rarely changes, specifications change from time to time and implementations change frequently.
+Implementation/Code are - should always be - managed with Version Controls System (VCS) such as git. This keeps control of the changes and the "truth". Specifications and Requirements does not have common system to keep them up to date. Specifications often rot - which makes them full of lies. The documentation for the example would typically look something like the list below.
 
+<table>
+    <th>Type</th><th>Description</th>
+    <tr>
+        <td>Requirement</td><td> On Valentines Day I want to show my appreciation for my wife</td>
+    </tr>
+    <tr>
+        <td>Specification</td><td>Buy 10 roses at Greta's flower shop and deliver to wife</td>
+    </tr>
+    <tr>
+        <td>Code/Interface</td><td>1. Go to store<br />2. Pick up and deliver product<br />3. Pay for product</td>
+    </tr>
+    <tr>
+        <td>Implementation</td><td>1. Check spa treatment in customers vicinity.<br />2. Order gift voucher to customer address<br />3. Pay bill</td>
+    </tr>
+</table>
+
+Code/Implementation is the most truthful documentation. But it - normally - does not answer the WHY question, while it accurate answers the WHAT an HOW questions. The requirement is the best to answer the WHY question.
+So the code/implementation combined with requirements answers the WHY, WHAT and HOW.
+
+### How to write good requirements
+Writing good requirements may not be as easy as it seems, so I try to start with the User Story format.
+As I would start this user story:
+**As a software developer** I most of the time need more information in order to implement a request.
+
+With this start you could continue to break it down/be more specific. How I get the information can have several different solution. E.g. 1. talking to the requester, 2. being handed a more specific specification (to this day I have not seen a complete non-trivial specification), 3. being handed requirements. 
+* Alternative 1 is the one requiring least amount of work with the probable drawback the documentation will be lacking.
+* Alternative 2 is the hardest and slowest, since there often requires a few iterations before all needed specification are in place. 
+* Alternative 3 seems to be hard to accomplish since most of the times requirements and specifications are mixed together. But if accomplished the WHY question will be documented - which is good to have in the future when someone wonder why something was implemented. With alternative 1 you need to rely on that someone remember why. (The invention of the IT-tool writing 5000 years ago was a very good invention). Alternative 2 does not answer the WHY, and the specification might have been tainted with lies.
