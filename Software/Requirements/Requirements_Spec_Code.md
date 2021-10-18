@@ -124,7 +124,7 @@ Writing good requirements may not be as easy as it seems, so I try to start with
 As I would start this user story:
 **As a software developer** I most of the time need more information in order to implement a request.
 
-With this start you could continue to break it down/be more specific. How I get the information can have several different solution. E.g. 1. talking to the requester, 2. being handed a more specific specification (to this day I have not seen a complete non-trivial specification), 3. being handed requirements. 
+With this start you could continue to break it down/be more specific. How I get the information can have several different solutions. E.g. 1. talking to the requester, 2. being handed a more specific specification (to this day I have not seen a complete non-trivial specification), 3. being handed requirements. 
 * Alternative 1 is the one requiring least amount of work with the probable drawback the documentation will be lacking.
 * Alternative 2 is the hardest and slowest, since there often requires a few iterations before all needed specification are in place. 
 * Alternative 3 seems to be hard to accomplish since most of the times requirements and specifications are mixed together. But if accomplished the WHY question will be documented - which is good to have in the future when someone wonder why something was implemented. With alternative 1 you need to rely on that someone remember why. (The invention of the IT-tool writing 5000 years ago was a very good invention). Alternative 2 does not answer the WHY, and the specification might have been tainted with lies.
