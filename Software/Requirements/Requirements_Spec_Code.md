@@ -50,6 +50,7 @@ I will run this through a scenario to show the volatility of the different types
 The first change comes when the first delivery is done and the roses are ruined, due to it was delivered with a bike.
 
 You could say that the implementation does not satisfy the requirement even though the specification was fulfilled.
+So without having/reading the requirement the implementer would be right. (I.e. there is a gap in the specification)
 <table>
 <th>Type</th><th>Description</th>
 <tr><td>Implementation</td><td><strong>1. Take <span class ='strike'>bike</span> taxi to Greta's store</strong><br />2. Pickup roses<br />3. Pay with cash<br />4. Deliver flowers</td></tr>
