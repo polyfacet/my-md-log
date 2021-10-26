@@ -19,4 +19,4 @@ GO
 ``` 
 
 More info about snapshot isolation
-https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server
+(https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server)
