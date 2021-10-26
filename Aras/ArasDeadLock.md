@@ -1,7 +1,7 @@
 # SQL Deadlock in Aras
 <p class='editDate'>Created/Updated: 2021-10-26</p>
 
-*Transaction (Process ID 51) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction. in SQL: ...*
+> *Transaction (Process ID 51) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction. in SQL: ...*
 
 If you have ever encountered a message like in Aras I have seen two different solutions to this.
 
