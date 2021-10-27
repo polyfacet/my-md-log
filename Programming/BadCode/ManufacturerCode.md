@@ -85,6 +85,8 @@ public class MatchingTemplatesTag extends TagSupport {
 
 Fourteen conditions in an if statement combined with ANDs, ORs and NOTs makes it quite impenetrable for my poor little brain to process.
 
+There are some many bad things in this code, but this if statement is something else.
+
 ## How I solved the issue with the bad code.
 I inserted the lines below before the real mess started.
 ``` java
@@ -95,4 +97,5 @@ I inserted the lines below before the real mess started.
                 return 0;
             }
 ```
-findMatchingTemplatesForPCP should have been named findAndAddMatchingTemplatesForPCP and the if statement should be written if (isPCP(domainType)) after renamed getType to domainType. The last comment about the "unmaintainable code" is good beacuse it explains WHY the return was done in a middle of 200+ lines of method.
+findMatchingTemplatesForPCP should have been named findAndAddMatchingTemplatesForPCP and the if statement should be written if (isPCP(domainType)) after renamed getType to domainType. The last comment about the "unmaintainable code" is good because it explains WHY the return was done in a middle of 200+ lines of method.
+
