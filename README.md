@@ -10,7 +10,8 @@ A test to be able simply combine git and markdowns into a simple log.
    * [Validation Concept with Demo](Aras/ValidationConcept.md)
    * [Aras Code Templates](Aras/ArasCodeTemplates.md)
    * [Dead Locks in Aras](Aras/ArasDeadLock.md)
-   
+* Coding
+   * [Code Snippets](Programming/CodeSnippets.md)   
   
   
 ---
