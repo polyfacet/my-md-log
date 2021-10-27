@@ -1,5 +1,7 @@
 # The horrible manufacturer code
-<p class='editDate'>Created/Updated: 2021-07-01/2021-10-27</p>
+<div class='editDate'>Created: 2021-07-01</div>
+<div class='editDate'>Updated: 2021-10-27</div>
+
 
 This is probably the worst piece of code i encountered. And I was supposed to add support for a new template.
 
