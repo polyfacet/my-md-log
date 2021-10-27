@@ -81,7 +81,7 @@ public class MatchingTemplatesTag extends TagSupport {
 
 ```
 
-Fourteen conditions in an if statement combined with ANDs, ORs and NOTs makes it quite impenetrable for my little brain to process.
+Fourteen conditions in an if statement combined with ANDs, ORs and NOTs makes it quite impenetrable for my poor little brain to process.
 
 ## How I solved the issue with the bad code.
 I inserted the lines below before the real mess started.
