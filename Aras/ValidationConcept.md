@@ -1,5 +1,5 @@
 # Validations in Aras
-Created/Updated: 2020-10-14
+<p class='editDate'>Created/Updated: 2021-10-14</p>
 
 ## Introduction
 The validation concept in Aras is invented to validate that an Item in Aras of specific type has the information it should have.

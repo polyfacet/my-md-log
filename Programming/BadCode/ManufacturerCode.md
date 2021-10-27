@@ -1,4 +1,6 @@
 # The horrible manufacturer code
+<p class='editDate'>Created/Updated: 2021-07-01/2021-10-27</p>
+
 This is probably the worst piece of code i encountered. And I was supposed to add support for a new template.
 
 ``` java
