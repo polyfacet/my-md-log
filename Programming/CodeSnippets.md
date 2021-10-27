@@ -6,7 +6,7 @@ Some code snippets I don't frequently enough to remember but needs every know an
 ## C#
 
 ### Init List
-``` C#
+``` cs
 private List<string> MyCars = new List<string>()
 {
     "BMW",
