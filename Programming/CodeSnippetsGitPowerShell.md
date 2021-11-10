@@ -1,5 +1,5 @@
 # Code Snippets
-<p class='editDate'>Created: 2021-11-10-</p>
+<p class='editDate'>Created: 2021-11-10</p>
 
 Some code snippets I don't frequently enough to remember but needs every know an then.
 
