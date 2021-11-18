@@ -7,7 +7,8 @@ Lately I have realized that I have gone from "solution-oriented" to "problem-ori
 
 ## Problem solving
 
-    If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and five minutes thinking about solutions.
+    If I had an hour to solve a problem,
+    I'd spend 55 minutes thinking about the problem and five minutes thinking about solutions.
 
     -- Albert Einstein
  
@@ -67,8 +68,9 @@ Source:
 ## In simple terms
 As a Feynman fan I must include some of his quotes.
 
-    If you can't explain something to a first year student, then you haven't really understood .
+    If you can't explain something to a first year student,
+    then you haven't really understood.
 
     -- Richard P. Feynman
 
-This one I like because often in my work discussion are often handled on detail level. But the documentation should be written on a high level so it is easy to understand. So it is easy to reevaluate in the future.
+This one I like because often in my work discussion are often handled on detail level. But the documentation should be written on a high level so it is easy to understand. So it is easy to reevaluate in the future. It connects back to Einsteins quote about problem solving to. Often if you try to explain something in simple terms you may often find that the solution has it flaws. Often the solution is more complicated than it needs to be.
