@@ -13,6 +13,9 @@ A test to be able simply combine github and markdowns into a simple log.
 * Coding
    * [Code Snippets C#](Programming/CodeSnippetsCSharp.md)
    * [Code Snippets git/powershell](Programming/CodeSnippetsGitPowerShell.md)
+* Other
+  * [Principles and mottoes](Other/Principles.md)
+
   
   
 ---
