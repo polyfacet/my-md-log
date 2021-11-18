@@ -4,7 +4,7 @@
 ## Introduction
 Lately I have realized that I have gone from "solution-oriented" to "problem-oriented", therefore I thought I would write down some principles and mottoes which I either strive for or is somehow programmed in me. Maybe I will add the reasons to it in the future.
 
-
+---
 ## Problem solving
 
     If I had an hour to solve a problem,
@@ -18,6 +18,7 @@ It is easy to jump to the solution part when a problem is encountered within my 
 An interesting article on the topic:
 <https://www.forbes.com/sites/nelldebevoise/2021/01/26/the-third-critical-step-in-problem-solving-that-einstein-missed/?sh=136840d23807>
 
+---
 
 ## Zen of Python
 
@@ -41,9 +42,13 @@ An interesting article on the topic:
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea – let's do more of those!
 
-A note about the Python language is that i reduces the use of the noisy {}; which are so frequent in so many programming languages. Similar to VB.NET the sibling of C# which for some reason it is popular to frown upon. 
-Even though VB.NET have some syntax that I don't like it is most of the time much more explicit and clean than C#
+Source: [Wikipedia](https://en.wikipedia.org/wiki/Zen_of_Python)
 
+A note about the Python language is that i reduces the use of the noisy {}; which are so frequent in so many programming languages. Similar to VB.NET - the sibling of C# - which for some reason it is popular to frown upon. 
+Even though VB.NET have some syntax that I don't like, it is most of the time much more explicit and clean than C#
+As seen in example below, the VB-syntax could actually also be a typical pseudo-code.
+
+VB.NET
 ``` vb
     If ItIsWeekend Then
         Chill
@@ -52,6 +57,7 @@ Even though VB.NET have some syntax that I don't like it is most of the time muc
     End If
 ```
 
+C#
 ``` csharp
     if (ItIsWeekend()) {
         Chill();
@@ -61,9 +67,9 @@ Even though VB.NET have some syntax that I don't like it is most of the time muc
     }
 ```
 
-Source:
-[Wikipedia](https://en.wikipedia.org/wiki/Zen_of_Python)
 
+
+---
 
 ## In simple terms
 As a Feynman fan I must include some of his quotes.
