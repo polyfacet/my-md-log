@@ -1,5 +1,6 @@
 # Principles and mottoes
 <div class='editDate'>Created: 2021-11-18</div>
+<div class='editDate'>Modified: 2021-11-23</div>
 
 ## Introduction
 Lately I have realized that I have gone from "solution-oriented" to "problem-oriented", therefore I thought I would write down some principles and mottoes which I either strive for or is somehow programmed in me. Maybe I will add the reasons to it in the future.
@@ -50,7 +51,7 @@ As seen in example below, the VB-syntax could actually also be a typical pseudo-
 
 VB.NET
 ``` vb
-    If ItIsWeekend Then
+    If ItIsWeekend Or Holiday Then
         Chill
     Else
         Work
@@ -59,7 +60,7 @@ VB.NET
 
 C#
 ``` csharp
-    if (ItIsWeekend()) {
+    if (ItIsWeekend() || Holiday()) {
         Chill();
     }
     else {
@@ -67,8 +68,29 @@ C#
     }
 ```
 
+This could be refactored/simplified to:
+``` vb
+    If ItIsAWorkingDay Then
+        Work
+    Else
+        Chill
+    End If
+```
+Or written like I see to often 
 
-
+``` csharp
+    if (IsWeekend()) {
+        Chill();
+    }
+    else {
+        if (Christmas() || Easter() || Vacation()) {
+            Chill();
+        }
+        else {
+            Work();
+        }
+    }
+```
 ---
 
 ## In simple terms
