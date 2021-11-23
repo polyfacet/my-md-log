@@ -76,7 +76,7 @@ This could be refactored/simplified to:
         Chill
     End If
 ```
-Or written like I see to often 
+Or written like I see too often 
 
 ``` csharp
     if (IsWeekend()) {
