@@ -14,7 +14,7 @@ Lately I have realized that I have gone from "solution-oriented" to "problem-ori
     -- Albert Einstein
  
 
-It is easy to jump to the solution part when a problem is encountered within my field (PLM Software customizations). Often there can exist a multitude av solutions to a given problem. However, once created a solution you will basically have to live with it, since removal/redoing will always have lower priority than new features. 
+It is easy to jump to the solution part when a problem is encountered within my field (PLM Software customizations). Often there can exist a multitude av solutions to a given problem. However, once created a solution you will basically have to live with it, since removal/redoing will always have lower priority than new features. And removing is also more complex, due to legacy and the too frequent case: That the WHYs of the implementation are missing/left undocumented. Which makes it a more daring task to do than adding a new feature.
 
 An interesting article on the topic:
 <https://www.forbes.com/sites/nelldebevoise/2021/01/26/the-third-critical-step-in-problem-solving-that-einstein-missed/?sh=136840d23807>
