@@ -1,6 +1,6 @@
 # Specifications
 <div class='editDate'>Created: 2021-11-24</div>
-Should I try to understand something, someone wrote that did not try to make it understandable.
+Should I try to understand something, someone wrote that did not try to make it understandable?
 
 ## BUG 2379
 This is an example of a "bug" that I was asked to fix. And the only abbreviation I was familiar with was GEQ. 
