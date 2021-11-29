@@ -101,4 +101,4 @@ As a Feynman fan I must include some of his quotes.
 
     -- Richard P. Feynman
 
-This one I like because often in my work discussion are often handled on detail level. But the documentation should be written on a high level, so it is easy to understand and is easy to reevaluate in the future. It connects back to Einsteins quote about problem solving to. Often if you try to explain something in simple terms you may often find that the solution has it flaws. Often the solution is more complicated than it needs to be.
+This one I like because often in my work discussion are often handled on detail level. But the documentation should be written on a high level, so it is easy to understand and easy to reevaluate in the future. It connects back to Einsteins quote about problem solving to. Often if you try to explain something in simple terms you may often find that the solution has it flaws. Often the solution is more complicated than it needs to be.
