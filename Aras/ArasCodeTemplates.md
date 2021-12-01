@@ -47,7 +47,7 @@ class fin {
     } // End Main Method
 
     private Innovator Inn;
-    private const string MethodName = "MY_Process_Template";
+    private const string MethodName = "MY_Process_Template"; //TODO: Replace with your method name
     private Aras.Server.Core.CallContext CC;
 
     private void Init(Aras.Server.Core.CallContext cco) {
