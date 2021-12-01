@@ -24,3 +24,68 @@ class fin {
 
 
 ```
+
+## "Processing" template
+``` c#
+        Init(CCO);
+        foreach (Item item in GetItemsToProcess()) {
+            try {
+                ProcessItem(item);
+                // 95% of my cases I don't want to make a partial commit. 
+                //But left it here in the template for the 5%
+                //Commit();   
+                Log($"Processed item: {item.getProperty("keyed_name")}");
+            }
+            catch (Exception ex) {
+                LogException(item,ex);
+                // TODO: rethrow/return newError or continue loop
+                // depending on requirements
+            }
+        }
+        return this;
+    } // End Main Method
+
+    private Innovator Inn;
+    private const string MethodName = "MY_Process_Template";
+    private Aras.Server.Core.CallContext CC;
+
+    private void Init(Aras.Server.Core.CallContext cco) {
+        Inn = this.getInnovator();
+        CC = cco;
+    }
+
+    private List<Item> GetItemsToProcess() {
+        var items = new List<Item>();
+        // TODO: Replace or implement
+        return items;
+    }
+    
+    private Item ProcessItem(Item item) {
+        // TODO: Replace or implement
+        return item;
+    }
+
+    private void Commit() {
+        CC.Variables.InnDatabase.CommitTransaction();
+    }
+    
+    private void LogException(Item sourceItem, Exception ex) {
+        string keyedName = sourceItem.getProperty("keyed_name", "(No keyed name)");
+        string errorMessage = $"Error updating {keyedName} : {ex.ToString()}";
+        LogError(errorMessage);        
+    }
+    
+    private void LogError(string message) {
+        string fileName = "ERROR_" + MethodName;
+        CC.Utilities.WriteDebug(fileName,message);
+    }
+    
+    private void LogMessage(string message) {
+        CC.Utilities.WriteDebug(MethodName,message);
+    }
+
+} // End Main Class
+
+class fin {
+    void method(
+```
