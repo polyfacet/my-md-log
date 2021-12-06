@@ -81,7 +81,7 @@ class fin {
         CC.Utilities.WriteDebug(fileName,message);
     }
     
-    private void LogMessage(string message) {
+    private void Log(string message) {
         CC.Utilities.WriteDebug(MethodName,message);
     }
 
