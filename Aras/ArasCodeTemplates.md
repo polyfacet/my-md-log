@@ -88,5 +88,6 @@ class fin {
 } // End Main Class
 
 class fin {
-    void method(
+    void method() {
+        
 ```
