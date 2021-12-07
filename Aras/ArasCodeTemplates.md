@@ -77,6 +77,7 @@ class fin {
     }
     
     private void LogError(string message) {
+        Log(message);
         string fileName = "ERROR_" + MethodName;
         CC.Utilities.WriteDebug(fileName,message);
     }
