@@ -35,3 +35,54 @@ A       Programming/CodeSnippetsGitPowerShell.md
 Modfied:
 M       README.md
 ```
+
+### Restart a service on remote server with other credentials
+Example:
+ - Computer Name = acme-dev
+ - Service Name = AcmeSuperService 
+
+``` powershell
+# Start powershell with other credentials 
+#(Close the powershell (ps) that opened the new "other cred." ps,
+# otherwise the new ps will not be repsonsive for some unknown reason)
+start powershell -credential ""
+# Get Service on computer "like"
+Get-Service -Name "AcmeSuper*" -ComputerName acme-dev | Select Name
+# Restart service on computer  "like"
+Get-Service -Name "AcmeSuper*" -ComputerName acme-dev | Restart-Service
+```
+
+### List lastest modfied files "like" in a directory
+
+``` powershell
+# List 10 latest modified files starting with "Error" in current folder 
+Get-ChildItem -File -Path "Error*" -ErrorAction SilentlyContinue |  Sort LastWriteTime -Descending | Select-Object -First 10 LastWriteTime,Name
+# or
+Get-ChildItem -File -Path "Error*" -ErrorAction SilentlyContinue |  Sort LastWriteTime -Descending | Select-Object -First 10 LastWriteTime,Name | Format-Table -Wrap
+```
+
+Output example:
+``` powershell
+LastWriteTime       Name
+-------------       ----
+2022-01-17 11:30:17 ERROR_MY_SyncUrlRelation.log
+2022-01-17 08:16:54 ERROR_MY_ShareRequest_GetValidations.log
+2022-01-11 16:20:04 ERROR_MY_GetEcoValidations.log
+2021-12-13 13:00:53 ERROR_MY_PartMoveFacility_Generic.log
+2021-12-13 07:38:56 ERROR_MY_PartGetValidations.log
+2021-12-09 10:34:16 ERROR_MY_SetAcquisitionFromErp.log
+2021-12-07 10:23:14 ERROR_MY_RemoveFraGroups.log
+2021-12-07 09:08:27 ERROR_MY_GeneratePartStructureReport.log
+2021-12-02 10:28:57 ERROR_MY_EcoGetPartBomDiff.log
+2021-11-16 12:49:24 ERROR_MY_GetHelp.log
+```
+
+
+### Repeat a command every X seconds
+
+``` powershell
+# To count the files (recursivliy) in a directory
+dir . *.* -recurse | measure | % Count
+# To repeat it every 10 second
+cls; while ($true) { dir . *.* -recurse | measure | % Count; start-sleep -seconds 10; }
+```
