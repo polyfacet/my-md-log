@@ -1,8 +1,14 @@
 # Code Snippets
-<div class='editDate'>Created: 2021-11-10</div>
+<div class='editDate'>Updated: 2022-01-24</div>
 
 Some code snippets I don't frequently enough to remember but needs every know an then.
-
+- [Code Snippets](#code-snippets)
+    - [List file changes from a specific date in git (with filters)](#list-file-changes-from-a-specific-date-in-git-with-filters)
+      - [Output Result](#output-result)
+    - [Restart a service on remote server with other credentials](#restart-a-service-on-remote-server-with-other-credentials)
+    - [List lastest modfied files "like" in a directory](#list-lastest-modfied-files-like-in-a-directory)
+    - [Repeat a command every X seconds](#repeat-a-command-every-x-seconds)
+    - [Get My Public IP](#get-my-public-ip)
 
 ### List file changes from a specific date in git (with filters)
 ```powershell
@@ -85,4 +91,10 @@ LastWriteTime       Name
 dir . *.* -recurse | measure | % Count
 # To repeat it every 10 second
 cls; while ($true) { dir . *.* -recurse | measure | % Count; start-sleep -seconds 10; }
+```
+
+### Get My Public IP 
+
+``` powershell
+(Invoke-WebRequest -uri "http://ifconfig.me/ip").Content
 ```

@@ -2,6 +2,12 @@
 <div class='editDate'>Created: 2021-11-18</div>
 <div class='editDate'>Modified: 2021-12-07</div>
 
+- [Principles and mottoes](#principles-and-mottoes)
+  - [Introduction](#introduction)
+  - [Problem solving](#problem-solving)
+  - [Zen of Python](#zen-of-python)
+  - [In simple terms](#in-simple-terms)
+
 ## Introduction
 Lately I have realized that I have gone from "solution oriented" to "problem oriented", therefore I thought I would write down some principles and mottoes which I either strive for or is somehow programmed in me. Maybe I will add the reasons to it in the future.
 

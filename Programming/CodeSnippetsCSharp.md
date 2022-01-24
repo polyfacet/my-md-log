@@ -3,8 +3,12 @@
 <div class='editDate'>Edited: 2021-11-17</div>
 
 Some code snippets I don't frequently enough to remember but needs every know an then.
+- [Code Snippets](#code-snippets)
+  - [C Sharp](#c-sharp)
+    - [Init List](#init-list)
+    - [List To Comma Separated string](#list-to-comma-separated-string)
 
-## C#
+## C Sharp
 
 
 ### Init List
