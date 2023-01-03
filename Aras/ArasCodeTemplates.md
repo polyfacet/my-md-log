@@ -5,6 +5,7 @@
   - [Introduction](#introduction)
   - [Simple Template](#simple-template)
   - ["Processing" template](#processing-template)
+  - [Simple VBMain template](#simple-vbMain-template)
 
 ## Introduction
 The "inline" coding in Aras is great for several reasons, but it has some drawbacks. When you want to write non-trivial code the "single"-method can easily get too long with to "much going on" to be readable. So I often use different templates/boiler plates to be able to write cleaner code.
@@ -96,4 +97,24 @@ class fin {
 class fin {
     void method() {
         
+```
+
+## Simple VBMain template
+``` VB
+' MethodTemplateName=VBMain;
+
+Private Inn As Innovator
+Private MethodName As String = "MY_METHOD"  ' TODO: Replace with a real method name
+    
+Function Main() As Item
+    Try
+        Inn = Me.GetInnovator()
+        
+        ' TODO: Implment code
+        
+    Catch ex As Exception
+        CCO.Utilities.WriteDebug("ERROR_" & MethodName, ex.ToString)
+        Throw
+    End Try
+End Function
 ```
