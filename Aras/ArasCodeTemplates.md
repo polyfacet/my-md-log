@@ -100,7 +100,7 @@ class fin {
 ```
 
 ## Simple VBMain template
-``` VB
+``` vbnet
 ' MethodTemplateName=VBMain;
 
 Private Inn As Innovator
