@@ -1,5 +1,5 @@
 # Code Snippets
-<div class='editDate'>Updated: 2022-01-24</div>
+<div class='editDate'>Updated: 2023-03-03</div>
 
 Some code snippets I don't frequently enough to remember but needs every know an then.
 - [Code Snippets](#code-snippets)
