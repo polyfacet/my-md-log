@@ -1,4 +1,5 @@
 # Git commands and aliases
+<div class='editDate'>Updated: 2023-03-03</div>
 Collection of use full git commands and aliases
 
 ## Find the most frequently changed files
