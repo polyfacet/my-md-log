@@ -12,7 +12,8 @@ A test to be able simply combine github and markdowns into a simple log.
    * [Dead Locks in Aras](Aras/ArasDeadLock.md)
 * Coding
    * [Code Snippets C#](Programming/CodeSnippetsCSharp.md)
-   * [Code Snippets git/powershell](Programming/CodeSnippetsGitPowerShell.md)
+   * [Code Snippets powershell](Programming/CodeSnippetsGitPowerShell.md)
+   * [Code Snippets git](Programming/CodeSnippetsGit.md)
 * Other
   * [Principles and mottoes](Other/Principles.md)
 
