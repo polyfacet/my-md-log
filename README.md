@@ -1,4 +1,5 @@
 # My Log
+<div class='editDate'>Updated: 2023-03-03</div>
 This is my log for various purposes.
 A test to be able simply combine github and markdowns into a simple log.
 
