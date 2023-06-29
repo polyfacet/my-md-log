@@ -1,5 +1,5 @@
 # SQL Deadlock in Aras
-<div class='editDate'>Created/Updated: 2021-10-26</div>
+<div class='editDate'>Created/Updated: 2023-06-29</div>
 
 > *Transaction (Process ID 51) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction. in SQL: ...*
 
