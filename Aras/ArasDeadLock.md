@@ -14,9 +14,22 @@ Setting the database in snapshot mode has in my experience been successful even 
 
 ``` sql
 ALTER DATABASE <database_name>
+SET ALLOW_SNAPSHOT_ISOLATION ON 
+```
+
+``` sql
+ALTER DATABASE <database_name>
 SET READ_COMMITED_SNAPSHOT ON
 GO
-``` 
+```
+
+With the query
+
+``` sql
+SELECT name, snapshot_isolation_state_desc, is_read_committed_snapshot_on from sys.databases 
+```
+
+you can check that/if they are enabled or not.
 
 More info about snapshot isolation  
 <https://docs.microsoft.com/en-us/donet/framework/data/adonet/sql/snapshot-isolation-in-sql-server>
