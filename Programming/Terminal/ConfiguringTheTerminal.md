@@ -3,7 +3,7 @@
 As I daily use the (windows) terminal for various reasons I will describe my preferred setup.  
 NOTE: The keybindings I have setup refers to the default SE keyboard layout. And I am using a 34" widescreen.
 
-<img src="../../images/screenshot-terminal-quake.png" width=50% height=40%>
+![screenshot](../../images/screenshot-terminal-quake.png)
 
 ## Quake mode
 
