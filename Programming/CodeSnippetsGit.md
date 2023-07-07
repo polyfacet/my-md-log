@@ -23,9 +23,9 @@ git config --global alias.cm 'commit -am'
 git config --global alias.s "status -sb"
 
 # A condensed/pretty log
-git config --global alias.l "log --pretty=\"format:%Cgreen%h %Cred%d  %Cblue%cr %Creset%s %Cblue%an\""
+git config --global alias.l "log --pretty=\"format:%Cblue%cr %Creset%s %Cblue%an %Cred%d %Cgreen%h\""
 
 # Search commit messages
-git config --global alias.find "log -i --pretty=\"format:%Cgreen%h %Cblue%s %Cred%an\" --name-status --grep"
+git config --global alias.find "log -i --pretty=\"format:%Cgreen%h %Cred%cr %Cblue%s %Cred%an\" --name-status --grep"
 #Use: git find PLM-1628
 ```
