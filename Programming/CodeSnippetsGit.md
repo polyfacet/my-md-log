@@ -33,3 +33,10 @@ git config --global alias.find "log -i --pretty=\"format:%Cgreen%h %Cred%cr %Cbl
 # that matters most from and end user perspective. Commit messages starting with feat/fix/cr
 git config --global alias.ll "log --grep='^feat\|^fix\|^cr' --oneline"
 ```
+
+### Advanded logs 
+
+``` powershell
+# List Added files last year within current directory
+git log --since="1 year ago"  --pretty=oneline --name-status --diff-filter=A -- ./
+```
