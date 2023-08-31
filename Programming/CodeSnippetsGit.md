@@ -1,5 +1,5 @@
 # Git commands and aliases
-<div class='editDate'>Updated: 2023-03-03</div>
+<div class='editDate'>Updated: 2023-08-31</div>
 Collection of use full git commands and aliases
 
 ## Find the most frequently changed files
@@ -34,9 +34,22 @@ git config --global alias.find "log -i --pretty=\"format:%Cgreen%h %Cred%cr %Cbl
 git config --global alias.ll "log --grep='^feat\|^fix\|^cr' --oneline"
 ```
 
-### Advanded logs 
+## Advanded logs 
 
 ``` powershell
 # List Added files last year within current directory
 git log --since="1 year ago"  --pretty=oneline --name-status --diff-filter=A -- ./
+```
+
+## Using tags
+
+``` powershell
+# Find which tags a commit is included in.
+# Useful for quick finding which version when a change was done (if tagging releases)
+# Example: while using git log --grep="fix(ECO):" , to search fixes for ECO
+git tag --contains f254f30
+#
+# v2.0.2
+# v2.0.3
+# I.e. the fix was implemented in v2.0.2
 ```
